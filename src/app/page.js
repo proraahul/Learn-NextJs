@@ -13,6 +13,7 @@ const page = () => {
     <main className="flex min-h-screen items-center justify-around p-24">
       <Link href={"/login"}>Login</Link>
       <Link href={"/about"}>About</Link>
+      
 
       <br/><br/>
 

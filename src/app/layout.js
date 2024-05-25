@@ -18,10 +18,15 @@ export default function RootLayout({ children }) {
         <ul className="flex w-fill px-20 py-4 border m-10 gap-x-20">
           <li className="text-yellow-600 underline hover:no-underline"><Link href={'/about'}>About</Link></li>
           <li className="text-yellow-600 underline hover:no-underline"><Link href={'/login'}>Login</Link></li>
+          <li className="text-yellow-600 underline hover:no-underline">
+            <Link href={'/studentlist'}>
+             Student List
+             </Link>
+             </li>
         </ul>
         
         {children}
-        <h2>Footer Layout</h2>
+        {/* <h2>Footer</h2> */}
         </body>
     </html>
   );
