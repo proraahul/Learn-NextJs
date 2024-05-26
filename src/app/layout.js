@@ -23,6 +23,21 @@ export default function RootLayout({ children }) {
              Student List
              </Link>
              </li>
+             <li className="text-yellow-600 underline hover:no-underline">
+            <Link href={'/clientproductlist'}>
+             Client Product List
+             </Link>
+             </li>
+             <li className="text-yellow-600 underline hover:no-underline">
+            <Link href={'/serverproductlist'}>
+             Server Product List
+             </Link>
+             </li>
+             <li className="text-yellow-600 underline hover:no-underline">
+            <Link href={'/modulecss'}>
+             Module Css Example
+             </Link>
+             </li>
         </ul>
         
         {children}
